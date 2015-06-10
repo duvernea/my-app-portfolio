@@ -13,8 +13,8 @@
         android:id="@+id/main_page_title_textview"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:textSize="24sp" />
+        android:layout_marginTop="@dimen/heading_margin_top"
+        android:textSize="@dimen/heading_text_size" />
 
     <Button
         android:layout_width="@dimen/button_width"
